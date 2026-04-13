@@ -14,8 +14,7 @@ The goal is to practice problem-solving and improve algorithmic thinking.
 -  Sliding Window (Fixed)  
 -  Backtracking (Subsets)  
 -  Breadth-First Search (BFS)  
--  Hash Map (Two Sum)  
--  Heap  
+-  Hash Map (Two Sum)    
 
 ---
 

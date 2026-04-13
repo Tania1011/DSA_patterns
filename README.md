@@ -1,6 +1,6 @@
-# 📌 Data Structures & Algorithm Patterns for LeetCode
+#  Data Structures & Algorithm Patterns for LeetCode
 
-## 🧠 Overview
+##  Overview
 This project contains implementations of common **Data Structures & Algorithms (DSA) patterns** used in coding interviews.  
 The goal is to practice problem-solving and improve algorithmic thinking.
 
@@ -8,18 +8,18 @@ The goal is to practice problem-solving and improve algorithmic thinking.
 
 ## 🚀 Implemented Patterns
 
-- 🔹 Binary Search  
-- 🔹 Find Minimum in Rotated Sorted Array  
-- 🔹 Two Pointers  
-- 🔹 Sliding Window (Fixed)  
-- 🔹 Backtracking (Subsets)  
-- 🔹 Breadth-First Search (BFS)  
-- 🔹 Hash Map (Two Sum)  
-- 🔹 Heap  
+-  Binary Search  
+-  Find Minimum in Rotated Sorted Array  
+-  Two Pointers  
+-  Sliding Window (Fixed)  
+-  Backtracking (Subsets)  
+-  Breadth-First Search (BFS)  
+-  Hash Map (Two Sum)  
+-  Heap  
 
 ---
 
-## 🧾 Example
+##  Example
 
 ```python
 def binary_search(nums, target):

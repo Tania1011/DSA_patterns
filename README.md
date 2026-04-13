@@ -1,26 +1,38 @@
-📌 DSA Patterns (Python)
-🧠 Overview
+# 📌 Data Structures & Algorithm Patterns for LeetCode
 
-This project contains implementations of common Data Structures & Algorithms patterns used in coding interviews.
+## 🧠 Overview
+This project contains implementations of common **Data Structures & Algorithms (DSA) patterns** used in coding interviews.  
+The goal is to practice problem-solving and improve algorithmic thinking.
 
-🚀 Implemented Patterns
-🔹 Two Pointers
-🔹 Sliding Window (Fixed)
-🔹 Binary Search
-🔹 Backtracking
-🔹 Linked List (Middle Element - Fast & Slow Pointer)
-🔹 Two Sum (Hash Map)
-🧠 Key Concepts
-Optimize brute force solutions
-Improve time complexity (O(n²) → O(n), O(n) → O(log n))
-Pattern-based problem solving
-⏱ Complexity Highlights
-Binary Search → O(log n)
-Two Pointers → O(n)
-Sliding Window → O(n)
-Backtracking → O(2ⁿ)
-🛠 Language
-Python
-📌 Goal
+---
 
-Practice and master core DSA patterns for coding interviews.
+## 🚀 Implemented Patterns
+
+- 🔹 Binary Search  
+- 🔹 Find Minimum in Rotated Sorted Array  
+- 🔹 Two Pointers  
+- 🔹 Sliding Window (Fixed)  
+- 🔹 Backtracking (Subsets)  
+- 🔹 Breadth-First Search (BFS)  
+- 🔹 Hash Map (Two Sum)  
+- 🔹 Heap  
+
+---
+
+## 🧾 Example
+
+```python
+def binary_search(nums, target):
+    left, right = 0, len(nums) - 1
+    
+    while left <= right:
+        mid = (left + right) // 2
+        
+        if nums[mid] == target:
+            return mid
+        elif nums[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+            
+    return -1

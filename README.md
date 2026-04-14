@@ -18,7 +18,7 @@ The goal is to practice problem-solving and improve algorithmic thinking.
 
 ---
 
-##  Implementations & Outputs
+##  Implementations & Outputs Examples
  🔹 Binary Search
 ```
 def binary_search(nums, target):
@@ -36,7 +36,7 @@ def binary_search(nums, target):
 Output:
 <p align="center"> <img src="screenshots/binary_search.png" width="1500"/> </p>
 
-# 🔹  Find Minimum in Rotated Sorted Array
+ 🔹 Find Minimum in Rotated Sorted Array
 ```
 def find_min_rotated(arr:list[int])-> int:
     left, right = 0, len(arr) - 1
@@ -52,4 +52,4 @@ def find_min_rotated(arr:list[int])-> int:
     return boundary_index
 ```
 Output:
-<p align="center"> <img src="screenshots/findMinimum_in_rotated_sorted" width="1500"/> </p>
+<p align="center"> <img src="screenshots/findMinimum_in_rotated_sortedArray.png" width="1500"/> </p>

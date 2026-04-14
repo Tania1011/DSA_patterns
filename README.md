@@ -63,3 +63,22 @@ def find_subsets(nums):
 ```
 🖼 Output
 <p align="center"><img src="screenshots/backtracking.png" width="600"/> </p>
+
+ ## 🔹 Sliding Window
+ 
+```python
+def sliding_window_fixed(nums, k):
+    window_sum = sum(nums[:k])
+    max_sum = window_sum
+
+    for right in range(k, len(nums)):
+        left = right - k
+        window_sum += nums[right] - nums[left]
+        max_sum = max(max_sum, window_sum)
+
+    return max_sum
+
+```
+🖼 Output
+<p align="center"><img src="screenshots/sliding_window_fixed.png" width="600"/> </p>
+

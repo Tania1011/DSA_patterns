@@ -39,6 +39,6 @@ def binary_search(nums, target):
 ---
 
 <p align="center">
-  <img src="screenshots/binary_search.png" width="400"/>
+  <img src="screenshots/binary_search.png"/>
 </p>
 

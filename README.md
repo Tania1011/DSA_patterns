@@ -50,4 +50,4 @@ def find_subsets(nums):
     return result
 ```
 Output:
-<p align="center"> <img src="sscreenshots/backtracking.png" width=800> </p>
+<p align="center"><img src="screenshots/backtracking.png" width="800"/> </p>

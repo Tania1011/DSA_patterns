@@ -18,36 +18,48 @@ The goal is to practice problem-solving and improve algorithmic thinking.
 
 ---
 
-##  Implementations & Outputs Examples
- 🔹 Binary Search.py
-```
+## 🧾 Implementations & Outputs Examples
+
+
+## 🔹 Binary Search
+
+```python
 def binary_search(nums, target):
     left, right = 0, len(nums) - 1
+
     while left <= right:
         mid = (left + right) // 2
+
         if nums[mid] == target:
             return mid
         elif nums[mid] < target:
             left = mid + 1
         else:
             right = mid - 1
-    return -1
-```
-Output:
-<p align="center"> <img src="screenshots/binary_search.png" width="800"/> </p>
 
- 🔹 Find Backtracking.py
+    return -1
+
 ```
+🖼 Output
+<p align="center"> <img src="screenshots/binary_search.png" width="600"/> </p>
+
+ ## 🔹 Find Backtracking
+ 
+```python
 def find_subsets(nums):
     result = []
+
     def backtrack(start, path):
         result.append(list(path))
+
         for i in range(start, len(nums)):
             path.append(nums[i])
             backtrack(i + 1, path)
-            path.pop() # Backtrack step
+            path.pop()  # Backtrack step
+
     backtrack(0, [])
     return result
+
 ```
-Output:
-<p align="center"><img src="screenshots/backtracking.png" width="800"/> </p>
+🖼 Output
+<p align="center"><img src="screenshots/backtracking.png" width="600"/> </p>

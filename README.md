@@ -18,7 +18,7 @@ The goal is to practice problem-solving and improve algorithmic thinking.
 
 ---
 
-##  Example
+##  Implementations & Outputs
 
 ```python
 def binary_search(nums, target):
@@ -35,3 +35,8 @@ def binary_search(nums, target):
             right = mid - 1
             
     return -1
+
+<p align="center">
+  <img src="https://github.com/Tania1011/DSA_patterns/screenshots/binary_search.png" width="400"/>
+</p>
+---

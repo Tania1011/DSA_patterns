@@ -52,4 +52,4 @@ def find_min_rotated(arr:list[int])-> int:
     return boundary_index
 ```
 Output:
-<p align="center"> <img src="screenshots/findMinimum_in_rotated_sortedArray.png" height=1200> </p>
+<p align="center"> <img src="sscreenshots/backtracking.png" width=800> </p>

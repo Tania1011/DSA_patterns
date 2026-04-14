@@ -19,7 +19,7 @@ The goal is to practice problem-solving and improve algorithmic thinking.
 ---
 
 ##  Implementations & Outputs Examples
- 🔹 Binary Search
+ 🔹 Binary Search.py
 ```
 def binary_search(nums, target):
     left, right = 0, len(nums) - 1
@@ -36,20 +36,18 @@ def binary_search(nums, target):
 Output:
 <p align="center"> <img src="screenshots/binary_search.png" width="800"/> </p>
 
- 🔹 Find Minimum in Rotated Sorted Array
+ 🔹 Find Backtracking.py
 ```
-def find_min_rotated(arr:list[int])-> int:
-    left, right = 0, len(arr) - 1
-    boundary_index = -1
-    while left <= right:
-        mid = (left + right) // 2
-        # if <= last element, then belongs to lower half
-        if arr[mid]<=arr[-1]:
-            boundary_index=mid
-            right = mid - 1
-        else:
-            left = mid + 1
-    return boundary_index
+def find_subsets(nums):
+    result = []
+    def backtrack(start, path):
+        result.append(list(path))
+        for i in range(start, len(nums)):
+            path.append(nums[i])
+            backtrack(i + 1, path)
+            path.pop() # Backtrack step
+    backtrack(0, [])
+    return result
 ```
 Output:
 <p align="center"> <img src="sscreenshots/backtracking.png" width=800> </p>

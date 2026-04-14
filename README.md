@@ -35,6 +35,7 @@ def binary_search(nums, target):
             right = mid - 1
             
     return -1
+```
 ---
 
 <p align="center">

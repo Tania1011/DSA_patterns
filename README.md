@@ -35,8 +35,9 @@ def binary_search(nums, target):
             right = mid - 1
             
     return -1
+---
 
 <p align="center">
-  <img src="https://github.com/Tania1011/DSA_patterns/screenshots/binary_search.png" width="400"/>
+  <img src="screenshots/binary_search.png" width="400"/>
 </p>
----
+

@@ -34,7 +34,7 @@ def binary_search(nums, target):
     return -1
 ```
 Output:
-<p align="center"> <img src="screenshots/binary_search.png" width="1500"/> </p>
+<p align="center"> <img src="screenshots/binary_search.png" width="800"/> </p>
 
  🔹 Find Minimum in Rotated Sorted Array
 ```
@@ -52,4 +52,4 @@ def find_min_rotated(arr:list[int])-> int:
     return boundary_index
 ```
 Output:
-<p align="center"> <img src="screenshots/findMinimum_in_rotated_sortedArray.png" width="1500"/> </p>
+<p align="center"> <img src="screenshots/findMinimum_in_rotated_sortedArray.png" height=1200> </p>
